@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+  background: #BECCD9;
+}
+
+.template {
+  background-color: #6b6c70;
+  border: 3px solid;
+  margin: 0 auto;
+  width: 1170px;
+}
+.clear{
+    overflow: hidden;
+}
+
+.nav {
+
+}
+.nav_heading {
+  border-bottom: 3px solid;
+  height: 85px;
+  background: #ABA7CC;
+}
+.nav_heading h1 {
+  font-size: 35px;
+  font-weight: normal;
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+.header {
+  border-bottom: 8px solid white;
+  height: 80px;
+}
+.logo {
+  float: left;
+  width: 30%;
+  height: 80px;
+  border-right: 8px solid white;
+}
+.logo h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+.manu_bar {
+  text-align: center;
+}
+.manu_bar h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 19px;
+  text-transform: uppercase;
+}
+
+
+.content {
+  border-bottom: 3px solid;
+  height: 800px;
+}
+.body_content {
+  background: #ffffff none repeat scroll 0 0;
+  height: 305px;
+  padding-top: 192px;
+  text-align: center;
+  border-bottom: 2px solid;
+}
+.left_bar {
+  border-right: 3px solid;
+  float: left;
+  height: 800px;
+  width: 20%;
+  background: #CCC9E4;
+}
+.left_bar h2 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 316px;
+  text-align: center;
+}
+
+
+.main_content {
+  background: #dcdddf none repeat scroll 0 0;
+  border-right: 2px solid;
+  float: left;
+  height: 800px;
+  width: 686px;
+}
+.main_content h2 {
+  background: #dcdddf none repeat scroll 0 0;
+  border-bottom: 3px solid;
+  font-size: 38px;
+  font-weight: normal;
+  height: 108px;
+  padding-top: 53px;
+  text-align: center;
+  text-transform: none;
+}
+
+.main_content.clear > h3 {
+  border-bottom: 2px solid;
+  font-size: 35px;
+  font-weight: normal;
+  height: 232px;
+  margin-top: 265px;
+  text-align: center;
+}
+
+.main_content.clear > h4 {
+  font-size: 35px;
+  font-weight: normal;
+  height: 206px;
+  margin-top: 57px;
+  text-align: center;
+}
+.body_content > h3 {
+  font-size: 35px;
+  font-weight: normal;
+}
+.post h4 {
+  font-size: 35px;
+  margin-top: 33px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.sidebar {
+  background: #ccc9e4 none repeat scroll 0 0;
+  float: right;
+  height: 800px;
+  width: 21%;
+}
+
+.sidebar h2 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 316px;
+  text-align: center;
+}
+
+
+.main_footer {
+  height: 80px;
+}
+.footer.clear {
+  background: #ABA7CC;
+}
+.footer h3 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 21px;
+  text-align: center;
+}

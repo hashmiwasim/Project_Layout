@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+  background: #BECCD9;
+}
+
+.template {
+  background-color: #6b6c70;
+  border: 8px solid white;
+  margin: 0 auto;
+  width: 1170px;
+}
+.clear{
+    overflow: hidden;
+}
+
+.nav {
+
+}
+.nav_heading {
+  border-bottom: 8px solid white;
+  height: 85px;
+}
+.nav_heading h1 {
+  color: white;
+  font-size: 39px;
+  font-weight: bold;
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+.header {
+  border-bottom: 8px solid white;
+  height: 80px;
+}
+.logo {
+  float: left;
+  width: 30%;
+  height: 80px;
+  border-right: 8px solid white;
+}
+.logo h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+.manu_bar {
+  text-align: center;
+}
+.manu_bar h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 19px;
+  text-transform: uppercase;
+}
+
+
+.content {
+  border-bottom: 8px solid white;
+  height: 550px;
+}
+.main_content {
+  border-right: 8px solid white;
+  float: left;
+  height: 550px;
+  width: 823px;
+}
+.main_content h2 {
+  color: white;
+  font-size: 31px;
+  padding-top: 29%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.sidebar {
+  float: right;
+  width: 29%;
+}
+a {
+  text-decoration: none;
+}
+/*
+.sidebar.clear h1 {
+  border-bottom: 8px solid white;
+  color: white;
+  font-size: 28px;
+  padding: 14px;
+  text-align: center;
+  font-weight: normal;
+}
+*/
+
+.sidebar h2 {
+  border-bottom: 8px solid white;
+  color: white;
+  font-size: 26px;
+  padding-bottom: 21px;
+  padding-right: 13px;
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.main_footer {
+  height: 80px;
+}
+.footer h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 21px;
+  text-align: center;
+}
